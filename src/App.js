@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import studioselah from './studio_selah_logo.png';
 import './App.css';
 import NavBar from './components/NavBar';
 
@@ -8,6 +9,13 @@ function App() {
 
       {/* NavBar Header */}
       <NavBar />
+
+      <div class="container text-center border">
+        <div class="row">
+          <img src={studioselah} class="rounded" alt='logo'/>
+          <p>Hello World</p>
+        </div>
+      </div>
 
 
       <header className="App-header">
