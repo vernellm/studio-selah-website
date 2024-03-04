@@ -2,7 +2,7 @@ export default function NavBar() {
     return (
         <nav class="navbar bg-black" data-bs-theme="dark">
 
-            <div class="container-fluid">
+            <div class="container-fluid mx-auto">
 
                 <ul class="navbar-nav flex-row mx-auto">
                     <li class="nav-item active px-4">

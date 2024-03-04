@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import studioselah from './studio_selah_logo.png';
 import './App.css';
+import './Carousel.css';
 import NavBar from './components/NavBar';
 import MainCarousel from './components/MainCarousel';
 
@@ -30,27 +31,37 @@ function App() {
         </div>
       </div>*/}
 
-      <div className="container border rounded">
-        <div class="row">
-          <div class="col-sm-6 border rounded">
-            <img src={studioselah} 
-              class="rounded-5 float-left img-fluid"
-              alt='logo'
-            />
+      <div className="container border rounded marketing">
+
+        <div className="row">
+
+          <div className="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 className="fw-normal">Heading</h2>
+            <p>Information about whatever heading here!</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
           </div>
-          <div class="col-sm-6 border rounded">
-            <p>Hello World</p>
+
+          <div className="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 className="fw-normal">Heading</h2>
+            <p>Information about whatever heading here!</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
           </div>
+
+          <div className="col-lg-4">
+            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+            <h2 className="fw-normal">Heading</h2>
+            <p>Information about whatever heading here!</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+
         </div>
-        <div class="row">
-          <div class="col-sm-4 border rounded">
-            <p>Hello World</p>
-          </div>
-          <div class="col-sm-8 border rounded">
-            <p>Hello World</p>
-          </div>
-        </div>
+
+        <hr class="featurette-divider text-light"></hr>
+
         <footer class="pt-3 mt-4 text-muted border-top"> © Studio Selah 2024 </footer>
+
       </div>
 
 
