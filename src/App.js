@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import studioselah from './studio_selah_logo.png';
 import './App.css';
 import './Carousel.css';
 import NavBar from './components/NavBar';
@@ -36,8 +35,8 @@ function App() {
         <div class="row featurette">
 
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Welcome to <span class="text-body-secondary">Studio Selah NOLA!</span></h2>
-            <p class="lead text-body-secondary pt-4">
+            <h2 class="featurette-heading fw-normal lh-1 text-body-tertiary">Welcome to <span class="text-body-secondary">Studio Selah NOLA!</span></h2>
+            <p class="lead text-body-tertiary pt-4">
               Studio Selah NOLA is the Metro New Orleans region premiere Natural Hair Studio! Offering services in Cultural Hair Braiding,
               Loc Maintenance & Repairs, Natural Hair Styling, Wicks, Sisterlocks, MicroLocs, and Human Hair Extensions. We have over 20 
               years of natural hair experience. Mobile services include Weddings, Film & Print, and Private Sessions.
@@ -59,22 +58,22 @@ function App() {
 
           <div className="col-lg-4">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 className="fw-normal">Heading</h2>
-            <p>Information about whatever heading here!</p>
+            <h2 className="fw-normal text-body-secondary">Heading</h2>
+            <p className='text-body-tertiary'>Information about whatever heading here!</p>
             <p><a class="btn btn-secondary" href="#">View details »</a></p>
           </div>
 
           <div className="col-lg-4">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 className="fw-normal">Heading</h2>
-            <p>Information about whatever heading here!</p>
+            <h2 className="fw-normal text-body-secondary">Heading</h2>
+            <p className='text-body-tertiary'>Information about whatever heading here!</p>
             <p><a class="btn btn-secondary" href="#">View details »</a></p>
           </div>
 
           <div className="col-lg-4">
             <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 className="fw-normal">Heading</h2>
-            <p>Information about whatever heading here!</p>
+            <h2 className="fw-normal text-body-secondary">Heading</h2>
+            <p className='text-body-tertiary'>Information about whatever heading here!</p>
             <p><a class="btn btn-secondary" href="#">View details »</a></p>
           </div>
 

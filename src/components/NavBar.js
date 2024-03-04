@@ -1,6 +1,6 @@
 export default function NavBar() {
     return (
-        <nav class="navbar bg-black" data-bs-theme="dark">
+        <nav class="navbar" data-bs-theme="dark">
 
             <div class="container-fluid mx-auto">
 
