@@ -33,6 +33,28 @@ function App() {
 
       <div className="container border rounded marketing">
 
+        <div class="row featurette">
+
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Welcome to <span class="text-body-secondary">Studio Selah NOLA!</span></h2>
+            <p class="lead text-body-secondary pt-4">
+              Studio Selah NOLA is the Metro New Orleans region premiere Natural Hair Studio! Offering services in Cultural Hair Braiding,
+              Loc Maintenance & Repairs, Natural Hair Styling, Wicks, Sisterlocks, MicroLocs, and Human Hair Extensions. We have over 20 
+              years of natural hair experience. Mobile services include Weddings, Film & Print, and Private Sessions.
+            </p>
+            <p className='text-body-secondary'> ** A non-refundable 
+              deposit is REQUIRED for all new client appointments and for any service over 3 hours.
+              </p>
+          </div>
+
+          <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+          </div>
+
+        </div>
+
+        <hr class="featurette-divider text-light"></hr>
+
         <div className="row">
 
           <div className="col-lg-4">
