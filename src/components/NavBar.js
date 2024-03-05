@@ -1,23 +1,31 @@
+import '../NavBar.css';
+
 export default function NavBar() {
     return (
-        <nav class="navbar" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md" data-bs-theme="light">
 
             <div class="container-fluid mx-auto">
 
-                <ul class="navbar-nav flex-row mx-auto">
-                    <li class="nav-item active px-4">
-                        <a class="nav-link fs-3" href="#">Home</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link fs-3" href="#">About</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link fs-3" href="#">Booking</a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link fs-3" href="#">Education</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div className='collapse navbar-collapse' id='navbarContent'>
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active px-4">
+                            <a class="nav-link fw-semibold fs-3" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-semibold fs-3" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-semibold fs-3" href="#">Booking</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link fw-semibold fs-3" href="#">Education</a>
+                        </li>
+                    </ul> 
+                </div>
 
             </div>
         </nav>

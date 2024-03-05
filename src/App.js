@@ -6,7 +6,7 @@ import MainCarousel from './components/MainCarousel';
 
 function App() {
   return (
-    <div data-bs-theme="dark" className="App">
+    <div data-bs-theme="light" className="App">
 
       {/* NavBar Header */}
       <NavBar />
@@ -35,13 +35,13 @@ function App() {
         <div class="row featurette">
 
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1 text-body-tertiary">Welcome to <span class="text-body-secondary">Studio Selah NOLA!</span></h2>
-            <p class="lead text-body-tertiary pt-4">
+            <h2 class="featurette-heading fw-normal lh-1 text-lighter">Welcome to <span class="text-color">Studio Selah NOLA!</span></h2>
+            <p class="lead text-color pt-4">
               Studio Selah NOLA is the Metro New Orleans region premiere Natural Hair Studio! Offering services in Cultural Hair Braiding,
               Loc Maintenance & Repairs, Natural Hair Styling, Wicks, Sisterlocks, MicroLocs, and Human Hair Extensions. We have over 20 
               years of natural hair experience. Mobile services include Weddings, Film & Print, and Private Sessions.
             </p>
-            <p className='text-body-secondary'> ** A non-refundable 
+            <p className='text-lighter fw-bold'> ** A non-refundable 
               deposit is REQUIRED for all new client appointments and for any service over 3 hours.
               </p>
           </div>
@@ -52,7 +52,7 @@ function App() {
 
         </div>
 
-        <hr class="featurette-divider text-light"></hr>
+        <hr class="featurette-divider"></hr>
 
         <div className="row">
 
@@ -79,7 +79,7 @@ function App() {
 
         </div>
 
-        <hr class="featurette-divider text-light"></hr>
+        <hr class="featurette-divider"></hr>
 
         <footer class="pt-3 mt-4 text-muted border-top"> © Studio Selah 2024 </footer>
 

@@ -1,10 +1,22 @@
 .App {
-  background-color: #282c34;
+  background-color: #eaeae7;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.btn-secondary {
+  background-color: #697f5b;
+}
+
+.text-lighter {
+  color: rgb(235,187,79);
+}
+
+.text-color {
+  color: rgb(248,92,5, 0.7);
 }
 
 @media (prefers-reduced-motion: no-preference) {
