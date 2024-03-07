@@ -15,21 +15,21 @@ export default function NavBar(props) {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item active px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3">Home</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle">Home</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <a class="nav-link fw-semibold fs-3" href="#">About</a>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle">About</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <a class="nav-link fw-semibold fs-3" href="#">Booking</a>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle" href="#">Booking</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <a class="nav-link fw-semibold fs-3" href="#">Education</a>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle" href="#">Education</button>
                         </li>
-                        
+
                     </ul> 
 
                 </div>

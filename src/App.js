@@ -1,10 +1,7 @@
-import { useState } from 'react';
 import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Booking from './pages/Booking';
-import About from './pages/About';
-import Education from './pages/Education'
 import './App.css';
 import './Carousel.css';
 
