@@ -1,6 +1,6 @@
 import '../NavBar.css';
 
-export default function NavBar() {
+export default function NavBar(props) {
     return (
         <nav class="navbar navbar-expand-md" data-bs-theme="light">
 
@@ -11,20 +11,27 @@ export default function NavBar() {
                 </button>
 
                 <div className='collapse navbar-collapse' id='navbarContent'>
+
                     <ul class="navbar-nav mx-auto">
+
                         <li class="nav-item active px-4">
-                            <a class="nav-link fw-semibold fs-3" href="#">Home</a>
+                            <button type='button' class="nav-link fw-semibold fs-3">Home</button>
                         </li>
+
                         <li class="nav-item px-4">
                             <a class="nav-link fw-semibold fs-3" href="#">About</a>
                         </li>
+
                         <li class="nav-item px-4">
                             <a class="nav-link fw-semibold fs-3" href="#">Booking</a>
                         </li>
+
                         <li class="nav-item px-4">
                             <a class="nav-link fw-semibold fs-3" href="#">Education</a>
                         </li>
+                        
                     </ul> 
+
                 </div>
 
             </div>
