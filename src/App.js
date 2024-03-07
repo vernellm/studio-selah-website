@@ -18,8 +18,6 @@ function App() {
 
       <Booking />
 
-      <footer class="pt-3 mt-4 text-muted border-top"> © Studio Selah 2024 </footer>
-
 
     
 
