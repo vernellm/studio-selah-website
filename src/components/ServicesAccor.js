@@ -1,10 +1,12 @@
+import '../ServicesAccordion.css'
+
 export default function ServicesAccor() {
     return (
         <div className="accordion my-5" id="serviceAccor" data-bs-theme="light">
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsult" aria-expanded="true" aria-controls="collapseConsult">
+                    <button className="accordion-button fs-4 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseConsult" aria-expanded="true" aria-controls="collapseConsult">
                         Consultations
                     </button>
                 </h2>
@@ -75,7 +77,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExten" aria-expanded="true" aria-controls="collapseExten">
+                    <button className="accordion-button collapsed fs-4 fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExten" aria-expanded="true" aria-controls="collapseExten">
                         Extensions
                     </button>
                 </h2>
@@ -103,7 +105,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStyling" aria-expanded="true" aria-controls="collapseStyling">
+                    <button className="accordion-button collapsed fw-medium fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStyling" aria-expanded="true" aria-controls="collapseStyling">
                         Natural Styling
                     </button>
                 </h2>
@@ -230,7 +232,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLocs" aria-expanded="true" aria-controls="collapseLocs">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLocs" aria-expanded="true" aria-controls="collapseLocs">
                         Locs
                     </button>
                 </h2>
@@ -408,7 +410,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInterlock" aria-expanded="true" aria-controls="collapseInterlock">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInterlock" aria-expanded="true" aria-controls="collapseInterlock">
                         Interlocking
                     </button>
                 </h2>
@@ -478,7 +480,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWicks" aria-expanded="true" aria-controls="collapseWicks">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWicks" aria-expanded="true" aria-controls="collapseWicks">
                         Loc Thickening/Wicks
                     </button>
                 </h2>
@@ -550,7 +552,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMicro" aria-expanded="true" aria-controls="collapseMicro">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMicro" aria-expanded="true" aria-controls="collapseMicro">
                         MicroLocs/SisterLocs
                     </button>
                 </h2>
@@ -650,7 +652,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTreatment" aria-expanded="true" aria-controls="collapseTreatment">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTreatment" aria-expanded="true" aria-controls="collapseTreatment">
                         Treatments
                     </button>
                 </h2>
@@ -703,7 +705,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePremiere" aria-expanded="true" aria-controls="collapsePremiere">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePremiere" aria-expanded="true" aria-controls="collapsePremiere">
                         Premiere Packages
                     </button>
                 </h2>
@@ -758,7 +760,7 @@ export default function ServicesAccor() {
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
-                    <button className="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseClasses" aria-expanded="true" aria-controls="collapseClasses">
+                    <button className="accordion-button fw-medium collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseClasses" aria-expanded="true" aria-controls="collapseClasses">
                         CLASSES!
                     </button>
                 </h2>

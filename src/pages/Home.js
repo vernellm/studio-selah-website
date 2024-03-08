@@ -16,7 +16,7 @@ export default function Home(props) {
 
                     <div class="col-md-7">
                         <h2 class="featurette-heading fw-normal lh-1 text-lighter">Welcome to <span class="text-color">Studio Selah NOLA!</span></h2>
-                        <p class="lead text-color pt-4">
+                        <p class="lead text-color my-5">
                             Studio Selah NOLA is the Metro New Orleans region premiere Natural Hair Studio! Offering services in Cultural Hair Braiding,
                             Loc Maintenance & Repairs, Natural Hair Styling, Wicks, Sisterlocks, MicroLocs, and Human Hair Extensions. We have over 20 
                             years of natural hair experience. Mobile services include Weddings, Film & Print, and Private Sessions.
@@ -27,7 +27,7 @@ export default function Home(props) {
                     </div>
 
                     <div class="col-md-5">
-                        <img src={main1} class="d-block w-100 mx-auto pt-5" alt="..."/>
+                        <img src={main1} class="d-block w-100 mx-auto mt-5 rounded-4 shadow" alt="..."/>
                     </div>
 
                 </div>
@@ -40,21 +40,21 @@ export default function Home(props) {
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn shadow">View details »</button></p>
                     </div>
 
                     <div className="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn shadow">View details »</button></p>
                     </div>
 
                     <div className="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn shadow">View details »</button></p>
                     </div>
 
                 </div>

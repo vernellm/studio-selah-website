@@ -9,7 +9,7 @@ export default function ServicesJumbotron() {
                     Here at Studio Selah, we offer many different services and options
                     to ensure that you leave with the utmost confidence in your crown!
                 </p>
-                <button className="btn btn-primary btn-lg jumbo-btn" type="button">Book Now</button>
+                <button className="btn btn-primary btn-lg jumbo-btn shadow" type="button">Book Now</button>
             </div>
         </div>
     );

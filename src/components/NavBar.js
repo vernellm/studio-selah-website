@@ -15,15 +15,15 @@ export default function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item active px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0">Home</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle border-2 rounded py-1">Home</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Services</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle border-2 rounded py-1" href="#">Services</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Education</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle border-2 rounded py-1" href="#">Education</button>
                         </li>
 
                     </ul> 
