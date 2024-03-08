@@ -2,7 +2,7 @@ import '../NavBar.css';
 
 export default function NavBar() {
     return (
-        <nav class="navbar navbar-expand-md fixed-top pb-1 border border-bottom border-success-subtle" data-bs-theme="light">
+        <nav class="navbar navbar-expand-md" data-bs-theme="light">
 
             <div class="container-fluid mx-auto">
 
@@ -15,19 +15,19 @@ export default function NavBar() {
                     <ul class="navbar-nav mx-auto">
 
                         <li class="nav-item active px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3">Home</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0">Home</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3">About</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0">About</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3" href="#">Booking</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Booking</button>
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3" href="#">Education</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Education</button>
                         </li>
 
                     </ul> 
