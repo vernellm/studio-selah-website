@@ -2,7 +2,7 @@ import studioselah from '../studio_selah.png';
 
 export default function MainCarousel() {
     return (
-        <div id="mainCarousel" class="carousel slide">
+        <div id="mainCarousel" class="carousel slide py-0">
 
             <div class="carousel-inner">
 

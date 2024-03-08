@@ -7,8 +7,10 @@
   pointer-events: none;
 }
 
-.btn-secondary {
-  background-color: #697f5b;
+.tri-btn {
+  background-image: var(--bs-gradient);
+  background-color: rgb(105,127,91);
+  border-color: rgb(105,127,91);
 }
 
 .text-lighter {
@@ -16,7 +18,7 @@
 }
 
 .text-color {
-  color: rgb(248,92,5, 0.7);
+  color: rgba(248,92,5, 0.7);
 }
 
 @media (prefers-reduced-motion: no-preference) {

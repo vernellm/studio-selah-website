@@ -1,8 +1,13 @@
 import ServicesAccor from "../components/ServicesAccor";
+import ServicesJumbotron from "../components/ServicesJumbotron";
 
 export default function Booking() {
     return (
         <div className="container border rounded">
+
+            <ServicesJumbotron />
+
+            <hr />
 
             <ServicesAccor />
 

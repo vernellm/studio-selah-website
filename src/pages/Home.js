@@ -40,21 +40,21 @@ export default function Home(props) {
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
                     </div>
 
                     <div className="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
                     </div>
 
                     <div className="col-lg-4">
                         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
                         <h2 className="fw-normal text-color">Heading</h2>
                         <p className='text-lighter fw-semibold'>Information about whatever heading here!</p>
-                        <p><button type='button' class="btn btn-secondary">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn">View details »</button></p>
                     </div>
 
                 </div>

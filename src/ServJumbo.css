@@ -1,0 +1,16 @@
+.mainjumbo {  
+    background-image: var(--bs-gradient);
+    background-color: hsl(60,7%,85%);
+    color: rgb(235,187,79);
+}
+
+.jumbo-text-lighter {
+    color: rgb(235,187,79);
+    color: rgba(248,92,5,0.7);
+}
+
+.jumbo-btn {
+    background-image: var(--bs-gradient);
+    background-color: rgb(105,127,91);
+    border-color: rgb(105,127,91);
+}

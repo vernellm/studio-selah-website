@@ -1,6 +1,6 @@
 export default function ServicesAccor() {
     return (
-        <div className="accordion" id="serviceAccor" data-bs-theme="light">
+        <div className="accordion my-5" id="serviceAccor" data-bs-theme="light">
 
             <div className="accordion-item">
                 <h2 className="accordion-header">
