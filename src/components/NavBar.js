@@ -2,7 +2,7 @@ import '../NavBar.css';
 
 export default function NavBar() {
     return (
-        <nav class="navbar navbar-expand-md" data-bs-theme="light">
+        <nav class="navbar navbar-expand-md pt-1 pb-0" data-bs-theme="light">
 
             <div class="container-fluid mx-auto">
 

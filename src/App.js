@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import './App.css';
-import './Carousel.css';
+import './Carousel.css';  
 
 function App() {
   
@@ -17,10 +17,6 @@ function App() {
       <Home />
 
       <Services />
-
-
-    
-
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

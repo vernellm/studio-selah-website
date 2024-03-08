@@ -7,9 +7,19 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-secondary {
   background-image: var(--bs-gradient);
   background-color: rgb(105,127,91);
+  border-color: rgb(105,127,91);
+}
+
+.btn-secondary:hover {
+  background-color: rgb(105,127,91, .5);
   border-color: rgb(105,127,91);
 }
 
@@ -17,9 +27,21 @@
   color: rgb(235,187,79);
 }
 
-.text-color {
+.geo, .mobile, .shop {
+  background-color: hsl(60,7%,85%);
   color: rgba(248,92,5, 0.7);
 }
+
+
+.text-color {
+  color: rgba(248,92,5);
+}
+
+.map-container {
+  height: 100%;
+  width: 100%;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
