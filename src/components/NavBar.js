@@ -19,11 +19,7 @@ export default function NavBar() {
                         </li>
 
                         <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0">About</button>
-                        </li>
-
-                        <li class="nav-item px-4">
-                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Booking</button>
+                            <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle py-0" href="#">Services</button>
                         </li>
 
                         <li class="nav-item px-4">

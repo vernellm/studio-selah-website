@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
-import Booking from './pages/Booking';
+import Services from './pages/Services';
 import './App.css';
 import './Carousel.css';
 
@@ -16,7 +16,7 @@ function App() {
 
       <Home />
 
-      <Booking />
+      <Services />
 
 
     

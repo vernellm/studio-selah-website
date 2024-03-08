@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-.tri-btn {
+.btn-secondary {
   background-image: var(--bs-gradient);
   background-color: rgb(105,127,91);
   border-color: rgb(105,127,91);
