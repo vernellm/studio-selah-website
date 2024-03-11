@@ -3,15 +3,13 @@ import ServicesJumbotron from "../components/ServicesJumbotron";
 
 export default function Services() {
     return (
-        <div className="container border rounded">
+        <div className="container">
 
             <ServicesJumbotron />
 
             <hr />
 
             <ServicesAccor />
-
-            <footer class="pt-3 mt-4 text-muted border-top"> © Studio Selah 2024 </footer>
 
         </div>
     );

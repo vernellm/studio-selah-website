@@ -1,5 +1,6 @@
 import main1 from '../mainPic1.jpeg';
 import MainCarousel from '../components/MainCarousel';
+import { Link } from "react-router-dom";
 import '../Carousel.css';
 import '../App.css';
 
@@ -13,7 +14,7 @@ export default function Home() {
             {/* MainCarousel / Jumbotron */}
             <MainCarousel />
 
-            <div className="container border rounded marketing">
+            <div className="container marketing">
 
                 <div class="row featurette">
 
@@ -54,7 +55,7 @@ export default function Home() {
                         </svg>
                         <h2 className="fw-normal text-color">We're Mobile!</h2>
                         <p className='text-lighter fw-semibold'>We are a Mobile Business servicing everywhere in the United States</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn shadow">View details »</button></p>
+                        <p><button type='button' class="btn btn-secondary tri-btn shadow"><Link to="/services">View Services »</Link></button></p>
                     </div>
 
                     <div className="col-lg-4">
@@ -73,11 +74,9 @@ export default function Home() {
                 <hr class="featurette-divider"></hr>
 
                 <div className='row featurette'>
-                
+                    
                 </div>
-
-                <footer class="pt-3 mt-4 text-muted border-top"> © Studio Selah 2024 </footer>
-
+                
             </div>
 
         </div>

@@ -1,37 +1,37 @@
-import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route
+} from "react-router-dom";
 import './App.css';
-import './Carousel.css';  
+import './Carousel.css';
+import './NavBar.css';
 
 function App() {
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<NavBar />}>
+        <Route index element={<Home />} />
+        <Route path="services" element={<Services />} />
+      </Route>
+    )
+  );
   
   return (
 
     <div data-bs-theme="light" className="App">
 
-      {/* NavBar Header */}
-      <NavBar />
+      <RouterProvider router={router} />
 
-      <Home />
+      <div className='container pb-3'>
+                    <footer class="pt-3 mt-4 text-muted text-center border-top border-2"> © 2024 Studio Selah, Inc </footer>
+                </div>
 
-      <Services />
-
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
