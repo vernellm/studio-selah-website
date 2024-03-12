@@ -1,6 +1,6 @@
 # WebSite for StudioSelah
 
-You can access the site here:([StudioSelah](https://studioselahnola.netlify.app))
+You can access the site here: [StudioSelah](https://studioselahnola.netlify.app)
 
 # Getting Started with Create React App
 
