@@ -8,8 +8,6 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
-import './Carousel.css';
-import './NavBar.css';
 
 function App() {
 
@@ -29,8 +27,8 @@ function App() {
       <RouterProvider router={router} />
 
       <div className='container pb-3'>
-                    <footer class="pt-3 mt-4 text-muted text-center border-top border-2"> © 2024 Studio Selah, Inc </footer>
-                </div>
+        <footer class="pt-3 mt-4 text-muted text-center border-top border-2"> © 2024 Studio Selah, Inc </footer>
+      </div>
 
     </div>
   );

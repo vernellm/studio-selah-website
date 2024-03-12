@@ -1,4 +1,4 @@
-import '../ServJumbo.css';
+import '../css/ServJumbo.css';
 
 export default function ServicesJumbotron() {
     return (

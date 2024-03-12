@@ -1,4 +1,4 @@
-import '../ServicesAccordion.css'
+import '../css/ServicesAccordion.css'
 
 export default function ServicesAccor() {
     return (

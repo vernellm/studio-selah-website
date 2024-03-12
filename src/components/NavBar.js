@@ -1,5 +1,5 @@
 import { Outlet, NavLink, ScrollRestoration } from "react-router-dom";
-import '../NavBar.css';
+import '../css/NavBar.css';
 
 export default function NavBar() {
     return (
@@ -25,7 +25,7 @@ export default function NavBar() {
                             </li>
 
                             <li class="nav-item px-4">
-                                <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle border-2 rounded py-1"><NavLink className="link-text" to="/education">Education</NavLink></button>
+                                <button type='button' class="nav-link fw-semibold fs-3 border-bottom border-success-subtle border-2 rounded py-1 link-text">Education</button>
                             </li>
 
                         </ul> 
