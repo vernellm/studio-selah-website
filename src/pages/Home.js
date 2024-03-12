@@ -1,4 +1,4 @@
-import main1 from '../mainPic1.jpeg';
+import main1 from '../assets/mainPic1.jpeg';
 import MainCarousel from '../components/MainCarousel';
 import { Link } from "react-router-dom";
 import '../Carousel.css';

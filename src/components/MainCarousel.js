@@ -1,4 +1,4 @@
-import studioselah from '../studio_selah.png';
+import studioselah from '../assets/studio_selah.png';
 
 export default function MainCarousel() {
     return (
