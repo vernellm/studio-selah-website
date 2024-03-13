@@ -30,6 +30,10 @@
   .featurette-heading {
     letter-spacing: -.05rem;
   }
+
+  .selah {
+    filter: drop-shadow(5px 5px black);
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */

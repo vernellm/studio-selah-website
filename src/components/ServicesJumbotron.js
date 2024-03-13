@@ -2,8 +2,8 @@ import '../css/ServJumbo.css';
 
 export default function ServicesJumbotron() {
     return (
-        <div className="p-5 my-5 rounded-3 mainjumbo">
-            <div className="container-fluid py-5">
+        <div className="p-5 my-5 rounded-3 mainjumbo shadow">
+            <div className="container py-5">
                 <h1 className="display-5 fw-bold">Services</h1>
                 <p className="col-md-8 fs-4 jumbo-text-lighter fw-semibold">
                     Here at Studio Selah, we offer many different services and options

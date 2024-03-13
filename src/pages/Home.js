@@ -18,7 +18,7 @@ export default function Home() {
 
     return (
         
-        <div data-bs-theme="light">
+        <div className='container-fluid' data-bs-theme="light">
 
             {/* MainCarousel / Jumbotron */}
             <MainCarousel />

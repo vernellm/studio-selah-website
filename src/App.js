@@ -22,7 +22,7 @@ function App() {
   
   return (
 
-    <div data-bs-theme="light" className="App">
+    <div data-bs-theme="light" className="App container-fluid">
 
       <RouterProvider router={router} />
 

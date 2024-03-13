@@ -7,7 +7,7 @@ export default function MainCarousel() {
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <img src={studioselah} class="d-block mx-auto img-fluid" style={{width: 675}} alt="..."/>
+                    <img src={studioselah} class="d-block mx-auto img-fluid selah" style={{width: 675}} alt="..."/>
                 </div>
 
             </div>
