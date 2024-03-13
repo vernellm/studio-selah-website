@@ -55,7 +55,7 @@ export default function Home() {
                         </svg>
                         <h2 className="fw-normal text-color">Location</h2>
                         <p className='text-lighter fw-semibold'>1409 Oretha Castle Haley Boulevard, Ste D, New Orleans, LA 70113</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn shadow"><a href='https://www.google.com/maps/dir//1409+Oretha+Castle+Haley+Blvd+d,+New+Orleans,+LA+70113/@29.9417999,-90.1616777,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8620a5da29d84165:0x3cf0b6ca31aaac56!2m2!1d-90.0792763!2d29.9418255?hl=en&entry=tt'>Directions »</a></button></p>
+                        <p><a href='https://www.google.com/maps/dir//1409+Oretha+Castle+Haley+Blvd+d,+New+Orleans,+LA+70113/@29.9417999,-90.1616777,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8620a5da29d84165:0x3cf0b6ca31aaac56!2m2!1d-90.0792763!2d29.9418255?hl=en&entry=tt'><button type='button' class="btn btn-secondary tri-btn shadow">Directions »</button></a></p>
                     </div>
 
                     <div className="col-lg-4">
@@ -64,7 +64,7 @@ export default function Home() {
                         </svg>
                         <h2 className="fw-normal text-color">We're Mobile!</h2>
                         <p className='text-lighter fw-semibold'>We are a Mobile Business servicing everywhere in the United States</p>
-                        <p><button type='button' class="btn btn-secondary tri-btn shadow"><Link to="/services">View Services »</Link></button></p>
+                        <p><Link to="/services"><button type='button' class="btn btn-secondary tri-btn shadow">View Services »</button></Link></p>
                     </div>
 
                     <div className="col-lg-4">
@@ -75,7 +75,7 @@ export default function Home() {
                         <p className='text-lighter fw-semibold'>
                             Check out our Handcrafted Hair Oil created with all natural essential & nourishing oils!
                         </p>
-                        <p><button type='button' class="btn btn-secondary tri-btn shadow"><a href='https://www.vagaro.com/studioselahnola/products'>Shop »</a></button></p>
+                        <p><a href='https://www.vagaro.com/studioselahnola/products'><button type='button' class="btn btn-secondary tri-btn shadow">Shop »</button></a></p>
                     </div>
 
                 </div>

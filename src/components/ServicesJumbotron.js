@@ -9,7 +9,7 @@ export default function ServicesJumbotron() {
                     Here at Studio Selah, we offer many different services and options
                     to ensure that you leave with the utmost confidence in your crown!
                 </p>
-                <button className="btn btn-primary btn-lg jumbo-btn shadow" type="button"><a href='https://www.vagaro.com/studioselahnola'>Book Now</a></button>
+                <a href='https://www.vagaro.com/studioselahnola'><button className="btn btn-primary btn-lg jumbo-btn shadow" type="button">Book Now</button></a>
             </div>
         </div>
     );
