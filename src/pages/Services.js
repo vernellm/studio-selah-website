@@ -3,7 +3,7 @@ import ServicesJumbotron from "../components/ServicesJumbotron";
 
 export default function Services() {
     return (
-        <div className="container">
+        <div className="container py-5">
 
             <ServicesJumbotron />
 
